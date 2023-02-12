@@ -28,7 +28,7 @@ export default function Pricing() {
       }
       borderRadius="16px"
     >
-      <Flex direction = {{base:"column", md:"column", lg:"row"}}>
+      <Flex display = {{base:"column", md:"column", lg:"row"}}>
         {/* Left Box */}
 
         <Box bg={"#9a87bd"} p="40px" textAlign={"center"}>
